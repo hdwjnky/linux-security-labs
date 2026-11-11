@@ -2,6 +2,8 @@
 
 Built and tested a host-based firewall on Ubuntu Server using **nftables**, then attacked it from a **Kali Linux** VM with stealth port scans to verify which rules caught the traffic.
 
+> Based on a lab from **ITSY 2300 – Operating System Security** at Austin Community College. The lab steps came from the course; the documentation, screenshots, analysis, troubleshooting, and SSH block test are my own work beyond the assignment.
+
 ## Overview
 
 Linux's firewall is **netfilter**, which is built into the kernel. Users can't interact with netfilter directly, so a helper tool is needed to load rules into it. This lab uses **nftables**, the modern replacement for iptables. nftables handles IPv4 and IPv6 in one table, lets a single rule do several things at once (count, log, and drop), and uses a readable configuration file.
