@@ -6,6 +6,7 @@ Hands-on labs focused on securing and hardening Linux systems: firewalls, access
 
 | Lab | Focus | Skills |
 |---|---|---|
+| [firewalld Hardening](firewalld-hardening) | Zone-based firewall, allowlists & recon leak fix | firewalld, nftables, ipsets, rich rules, nmap |
 | [nftables Firewall](nftables-firewall) | Host firewall & attack testing | nftables, nmap, Kali, journalctl |
 | [SSH Hardening](ssh-hardening) | Securing the SSH service | SSH, Linux, auth |
 
